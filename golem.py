@@ -10,7 +10,7 @@ process = None
 target_ip = None
 target_port = None
 attack_time = 400  # Default time
-threads = 300  # Default thread count
+threads = 500  # Default thread count
 
 # Start command: Show Attack button
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
